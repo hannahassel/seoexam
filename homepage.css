@@ -1,0 +1,149 @@
+body {
+	background: #f0edeb;
+	color: #4f4d4b;
+}
+
+.topbar,
+footer,
+.hero,
+.intro,
+.quick-facts,
+.feature,
+.faq,
+.closing {
+	display: none;
+}
+
+.guides.wrap {
+	width: min(890px, 100%);
+	min-height: 100vh;
+	padding: 38px 6.1% 62px;
+	background: #eeebea;
+}
+
+.guides .section-heading {
+	display: block;
+	max-width: 440px;
+	margin: 0 0 36px;
+}
+
+.guides .section-kicker {
+	display: none;
+}
+
+.guides .section-heading h1 {
+	max-width: 440px;
+	margin: 0 0 13px;
+	color: #bd4813;
+	font-family: 'DM Sans', sans-serif;
+	font-size: clamp(30px, 4.5vw, 40px);
+	font-weight: 400;
+	letter-spacing: -.055em;
+	line-height: 1.04;
+}
+
+.guides .section-heading > p {
+	max-width: 440px;
+	margin: 0;
+	color: #666463;
+	font-size: 14px;
+	line-height: 1.65;
+	text-align: justify;
+}
+
+.guide-grid {
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	max-width: 713px;
+	margin-inline: auto;
+	gap: 14px clamp(24px, 6.8vw, 62px);
+}
+
+.guide-card {
+	display: flex;
+	min-height: 0;
+	flex-direction: column;
+	padding: 9px;
+	border: 2px solid #bd4813;
+	border-radius: 0;
+	background: #f7f5f4;
+	transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.guide-card:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 8px 18px rgba(80, 48, 30, .12);
+}
+
+.guide-card:focus-visible {
+	outline: 3px solid #183d3b;
+	outline-offset: 3px;
+}
+
+.guide-card .card-image {
+	display: block;
+	width: 100%;
+	aspect-ratio: 1.72;
+	margin-bottom: 10px;
+	object-fit: cover;
+}
+
+.guide-card h3 {
+	margin: 0 0 3px;
+	color: #bd4813;
+	font-family: 'DM Sans', sans-serif;
+	font-size: clamp(16px, 2.2vw, 21px);
+	font-weight: 400;
+	letter-spacing: -.045em;
+	line-height: 1.12;
+}
+
+.guide-card p {
+	margin: 0;
+	color: #666463;
+	font-size: 12px;
+	line-height: 1.65;
+}
+
+.guide-card .card-link {
+	display: none;
+}
+
+@media (max-width: 600px) {
+	.guides.wrap {
+		padding: 32px 22px 42px;
+	}
+
+	.guides .section-heading {
+		margin-bottom: 26px;
+	}
+
+	.guide-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 14px;
+	}
+
+	.guide-card {
+		padding: 8px;
+	}
+
+	.guide-card h3 {
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 380px) {
+	.guides.wrap {
+		padding-inline: 16px;
+	}
+
+	.guide-grid {
+		grid-template-columns: 1fr;
+		gap: 14px;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.guide-card {
+		transition: none;
+	}
+}
