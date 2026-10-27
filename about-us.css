@@ -88,35 +88,76 @@ a {
 }
 
 .profile-page {
+  width: min(1174px, calc(100% - 48px));
+  padding: clamp(52px, 6.4vw, 85px) 0 46px;
+}
+
+.profile-layout {
+  display: grid;
+  min-height: calc(100vh - clamp(52px, 6.4vw, 85px) - 46px);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.06fr);
+  gap: clamp(24px, 2.4vw, 36px);
+}
+
+.profile-copy {
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
-  justify-content: center;
 }
 
-.profile-page .about-panel {
-  min-height: 0;
-  max-width: 760px;
-}
-
-.profile-page .about-panel p {
-  font-size: clamp(20px, 2.4vw, 30px);
-}
-
-.profile-back {
-  display: inline-block;
+.profile-copy h1 {
   margin-bottom: 30px;
-  font-size: 16px;
+  font-size: clamp(38px, 4vw, 46px);
 }
 
-.profile-back:hover {
+.profile-intro {
+  margin: 0;
+  color: #b94717;
+  font-size: clamp(18px, 2vw, 21px);
+  line-height: 1.55;
+}
+
+.profile-contact {
+  margin-top: auto;
+  padding: 48px 6px 0;
+  color: #b94717;
+  font-size: clamp(19px, 2.3vw, 26px);
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.profile-contact h2 {
+  margin: 0 0 3px;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.profile-contact p {
+  margin: 0;
+}
+
+.profile-contact a {
   text-decoration: underline;
-  text-underline-offset: .15em;
+  text-underline-offset: .12em;
 }
 
-.profile-back:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 4px;
+.profile-figure {
+  margin: 0;
+  padding-top: 0;
+  text-align: center;
+}
+
+.profile-figure img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 600 / 428;
+  object-fit: cover;
+}
+
+.profile-figure figcaption {
+  margin-top: 16px;
+  color: #b94717;
+  font-size: clamp(20px, 2.7vw, 28px);
+  line-height: 1.4;
 }
 
 @media (max-width: 680px) {
@@ -128,4 +169,33 @@ a {
     min-height: 0;
     padding: 28px;
   }
+
+  .profile-page {
+    width: calc(100% - 40px);
+    padding-block: 36px;
+  }
+
+  .profile-layout {
+    min-height: 0;
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .profile-copy h1 {
+    margin-bottom: 14px;
+  }
+
+  .profile-contact {
+    margin-top: 44px;
+    padding: 0;
+  }
+
+  .profile-figure img {
+    aspect-ratio: 600 / 428;
+  }
+
+  .profile-figure figcaption {
+    font-size: 21px;
+  }
+
 }
