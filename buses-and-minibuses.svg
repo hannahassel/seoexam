@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="300" viewBox="0 0 1400 300" fill="none">
+  <rect width="1400" height="300" fill="#201E1C"/>
+  <g transform="translate(12 12)">
+    <rect width="330" height="276" fill="#E8E4DC"/>
+    <rect y="0" width="330" height="148" fill="#D6DDDA"/>
+    <path fill="#77736B" d="M0 183h330v93H0z"/>
+    <path fill="#CF342B" d="M35 90q0-24 24-24h205q24 0 24 24v132H35V90Z"/>
+    <path fill="#E9EBE8" d="M52 82h91v64H52zM157 82h112v64H157zM52 157h91v47H52zM157 157h112v47H157z"/>
+    <path fill="#292929" d="M52 228a26 26 0 1 0 0-52 26 26 0 0 0 0 52ZM250 228a26 26 0 1 0 0-52 26 26 0 0 0 0 52Z"/>
+    <text x="74" y="278" fill="#FFF" font-family="Arial,sans-serif" font-size="18">DOUBLE-DECKER BUS</text>
+  </g>
+  <g transform="translate(356 12)">
+    <rect width="330" height="276" fill="#E8E4DC"/>
+    <rect y="0" width="330" height="148" fill="#D7E4E3"/>
+    <path stroke="#827A70" stroke-width="12" d="M165 65v169"/>
+    <path fill="#BA4D37" d="M140 85h50v74h-50z"/>
+    <path fill="#F2EAE2" d="M148 96h34v15h-34z"/>
+    <path stroke="#F0BE56" stroke-width="8" d="M119 234h93"/>
+    <text x="48" y="278" fill="#FFF" font-family="Arial,sans-serif" font-size="18">CITY BUS STOP</text>
+  </g>
+  <g transform="translate(700 12)">
+    <rect width="330" height="276" fill="#373330"/>
+    <path fill="#4E4944" d="M0 168h330v108H0z"/>
+    <path stroke="#F1C04B" stroke-width="9" stroke-dasharray="27 21" d="M0 224h330"/>
+    <g fill="#D3322C">
+      <path d="m10 130 23-45h114l30 45v52H10z"/>
+      <path d="m153 146 20-40h98l27 40v40H153z"/>
+    </g>
+    <g fill="#BDD4D3">
+      <path d="M42 96h39v35H25zM91 96h47v35H91z"/>
+      <path d="M187 117h35v28h-49zM231 117h31v28h-31z"/>
+    </g>
+    <text x="102" y="278" fill="#FFF" font-family="Arial,sans-serif" font-size="18">BUSY CITY TRAFFIC</text>
+  </g>
+  <g transform="translate(1044 12)">
+    <rect width="344" height="276" fill="#D7E1D8"/>
+    <rect y="0" width="344" height="155" fill="#C9D7D2"/>
+    <path fill="#66876A" d="M0 155h344v121H0z"/>
+    <path fill="#6F9B62" d="M76 58h190v136H76z"/>
+    <path fill="#F0F0E7" d="M90 73h73v47H90zM178 73h73v47h-73zM90 132h73v47H90zM178 132h73v47h-73z"/>
+    <path fill="#E7C64A" d="M88 190h166v18H88z"/>
+    <circle cx="120" cy="213" r="18" fill="#252626"/><circle cx="224" cy="213" r="18" fill="#252626"/>
+    <text x="102" y="278" fill="#FFF" font-family="Arial,sans-serif" font-size="18">GREEN MINIBUS</text>
+  </g>
+</svg>

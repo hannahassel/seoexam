@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" fill="none">
+  <rect width="1000" height="340" fill="#FFF"/>
+  <g stroke="#4E5559" stroke-width="8" stroke-linejoin="round">
+    <path fill="#E33A3B" d="m60 104 48-49 90-18 83 27 47 64-22 64-85 29-112-17-62-45 13-55Z"/>
+    <path fill="#31A967" d="m380 75 54-41 111-12 89 41 36 62-30 70-80 32-109-20-62-45-9-56Z"/>
+    <path fill="#2388C5" d="m728 99 40-53 96-20 76 41 27 69-22 61-67 29-105-17-53-48 8-62Z"/>
+  </g>
+  <g fill="#FFF" font-family="Arial,sans-serif" text-anchor="middle">
+    <text x="194" y="135" font-size="24" font-weight="700">RED TAXI</text>
+    <text x="194" y="165" font-size="18">URBAN AREAS</text>
+    <text x="526" y="124" font-size="24" font-weight="700">GREEN TAXI</text>
+    <text x="526" y="154" font-size="18">NEW TERRITORIES</text>
+    <text x="846" y="130" font-size="24" font-weight="700">BLUE TAXI</text>
+    <text x="846" y="160" font-size="18">LANTAU ISLAND</text>
+  </g>
+</svg>

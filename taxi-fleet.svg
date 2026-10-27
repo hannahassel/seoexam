@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" fill="none">
+  <rect width="1400" height="360" fill="#EEEBEA"/>
+  <g transform="translate(28 82)">
+    <path fill="#E33A3B" stroke="#343536" stroke-width="8" d="m0 124 30-58q13-25 43-25h173q26 0 43 23l42 60 14 53H0v-53Z"/>
+    <path fill="#D9E7E8" stroke="#343536" stroke-width="7" d="M72 52h77v62H41l31-62ZM162 52h73q17 0 27 15l34 47H162V52Z"/>
+    <path fill="#FFF" d="M111 126h73v35h-73z"/>
+    <text x="126" y="151" fill="#D83033" font-family="Arial,sans-serif" font-size="16" font-weight="700">RED TAXI</text>
+    <circle cx="70" cy="181" r="31" fill="#27292A" stroke="#AAA" stroke-width="8"/>
+    <circle cx="278" cy="181" r="31" fill="#27292A" stroke="#AAA" stroke-width="8"/>
+  </g>
+  <g transform="translate(510 82)">
+    <path fill="#32A968" stroke="#343536" stroke-width="8" d="m0 124 30-58q13-25 43-25h173q26 0 43 23l42 60 14 53H0v-53Z"/>
+    <path fill="#D9E7E8" stroke="#343536" stroke-width="7" d="M72 52h77v62H41l31-62ZM162 52h73q17 0 27 15l34 47H162V52Z"/>
+    <path fill="#FFF" d="M109 126h88v35h-88z"/>
+    <text x="118" y="151" fill="#279454" font-family="Arial,sans-serif" font-size="15" font-weight="700">NEW TERRITORIES</text>
+    <circle cx="70" cy="181" r="31" fill="#27292A" stroke="#AAA" stroke-width="8"/>
+    <circle cx="278" cy="181" r="31" fill="#27292A" stroke="#AAA" stroke-width="8"/>
+  </g>
+  <g transform="translate(992 82)">
+    <path fill="#2388C5" stroke="#343536" stroke-width="8" d="m0 124 30-58q13-25 43-25h173q26 0 43 23l42 60 14 53H0v-53Z"/>
+    <path fill="#D9E7E8" stroke="#343536" stroke-width="7" d="M72 52h77v62H41l31-62ZM162 52h73q17 0 27 15l34 47H162V52Z"/>
+    <path fill="#FFF" d="M121 126h70v35h-70z"/>
+    <text x="129" y="151" fill="#237DB1" font-family="Arial,sans-serif" font-size="16" font-weight="700">LANTAU TAXI</text>
+    <circle cx="70" cy="181" r="31" fill="#27292A" stroke="#AAA" stroke-width="8"/>
+    <circle cx="278" cy="181" r="31" fill="#27292A" stroke="#AAA" stroke-width="8"/>
+  </g>
+</svg>

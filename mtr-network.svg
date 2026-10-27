@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" fill="none">
+  <rect width="1000" height="620" rx="18" fill="#FFF"/>
+  <g stroke="#E8E6E3" stroke-width="32" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M75 110H395V205H630V100H925"/>
+    <path d="M100 500H300V410H520V320H900V515"/>
+    <path d="M165 570V350L350 245H805V335"/>
+    <path d="M505 560V420L650 315V145"/>
+    <path d="M75 155V350H265L390 470H550V570"/>
+    <path d="M250 70V180L420 300H565L720 455H925"/>
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="round" stroke-width="10">
+    <path stroke="#E8B62B" d="M75 110H395V205H630V100H925"/>
+    <path stroke="#C65338" d="M100 500H300V410H520V320H900V515"/>
+    <path stroke="#2993C6" d="M165 570V350L350 245H805V335"/>
+    <path stroke="#16866B" d="M505 560V420L650 315V145"/>
+    <path stroke="#6D59A5" d="M75 155V350H265L390 470H550V570"/>
+    <path stroke="#8AAE29" d="M250 70V180L420 300H565L720 455H925"/>
+  </g>
+  <g fill="#FFF" stroke="#42464A" stroke-width="4">
+    <circle cx="75" cy="110" r="10"/><circle cx="210" cy="110" r="10"/><circle cx="395" cy="110" r="10"/><circle cx="395" cy="205" r="10"/><circle cx="510" cy="205" r="10"/><circle cx="630" cy="205" r="10"/><circle cx="630" cy="100" r="10"/><circle cx="775" cy="100" r="10"/><circle cx="925" cy="100" r="10"/>
+    <circle cx="100" cy="500" r="10"/><circle cx="220" cy="500" r="10"/><circle cx="300" cy="500" r="10"/><circle cx="300" cy="410" r="10"/><circle cx="420" cy="410" r="10"/><circle cx="520" cy="410" r="10"/><circle cx="520" cy="320" r="10"/><circle cx="670" cy="320" r="10"/><circle cx="900" cy="320" r="10"/><circle cx="900" cy="515" r="10"/>
+    <circle cx="165" cy="570" r="10"/><circle cx="165" cy="455" r="10"/><circle cx="165" cy="350" r="10"/><circle cx="265" cy="350" r="10"/><circle cx="350" cy="245" r="10"/><circle cx="500" cy="245" r="10"/><circle cx="650" cy="245" r="10"/><circle cx="805" cy="245" r="10"/><circle cx="805" cy="335" r="10"/>
+    <circle cx="505" cy="560" r="10"/><circle cx="505" cy="480" r="10"/><circle cx="505" cy="420" r="10"/><circle cx="650" cy="420" r="10"/><circle cx="650" cy="315" r="10"/><circle cx="650" cy="145" r="10"/>
+    <circle cx="75" cy="155" r="10"/><circle cx="75" cy="250" r="10"/><circle cx="75" cy="350" r="10"/><circle cx="265" cy="350" r="10"/><circle cx="390" cy="470" r="10"/><circle cx="550" cy="470" r="10"/><circle cx="550" cy="570" r="10"/>
+    <circle cx="250" cy="70" r="10"/><circle cx="250" cy="180" r="10"/><circle cx="420" cy="300" r="10"/><circle cx="565" cy="300" r="10"/><circle cx="720" cy="455" r="10"/><circle cx="820" cy="455" r="10"/><circle cx="925" cy="455" r="10"/>
+  </g>
+  <g fill="#5E6469" font-family="Arial,sans-serif" font-size="17">
+    <text x="66" y="88">NEW TERRITORIES</text>
+    <text x="338" y="294">KOWLOON</text>
+    <text x="705" y="548">HONG KONG ISLAND</text>
+    <text x="740" y="596" font-size="13">ILLUSTRATIVE NETWORK — NOT TO SCALE</text>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" fill="none">
+  <rect width="1000" height="620" fill="#E8E5E1"/>
+  <path fill="#C8D1D1" d="M0 0h1000v330H0z"/>
+  <path fill="#B2C7CE" d="M0 0h1000v135H0z"/>
+  <g fill="#D9D5D0" stroke="#A8A29B" stroke-width="6">
+    <path d="M0 30h175v340H0zM184 0h170v362H184zM825 15h175v355H825z"/>
+  </g>
+  <g fill="#91A7AA">
+    <path d="M20 65h40v52H20zM88 65h55v52H88zM20 151h40v52H20zM88 151h55v52H88zM204 44h45v60h-45zM278 44h49v60h-49zM204 143h45v60h-45zM278 143h49v60h-49zM846 62h48v65h-48zM922 62h48v65h-48zM846 165h48v65h-48zM922 165h48v65h-48z"/>
+  </g>
+  <path fill="#74736F" d="M0 372h1000v95H0z"/>
+  <path stroke="#E8D273" stroke-width="9" d="M0 420h1000"/>
+  <path fill="#4B4A47" d="m190 620 174-154h350l160 154H190Z"/>
+  <path stroke="#D8D2CA" stroke-width="8" d="m300 620 126-151M685 469l131 151"/>
+  <g transform="translate(118 190)">
+    <path fill="#165F5C" stroke="#273B39" stroke-width="10" d="M24 96 53 24q9-22 33-22h220q24 0 35 24l34 70v252H24V96Z"/>
+    <path fill="#245C59" stroke="#273B39" stroke-width="8" d="M56 18h119v113H18V99l29-66q3-9 9-15ZM187 18h119q9 0 14 10l29 71v32H187V18Z"/>
+    <path fill="#C8E1DF" stroke="#203A38" stroke-width="7" d="M62 31h98v88H36l26-88ZM198 31h101l25 88H198V31Z"/>
+    <path stroke="#C4A253" stroke-width="12" d="M24 143h350M24 280h350"/>
+    <path fill="#233A39" d="M25 181h349v73H25z"/>
+    <path fill="#AFC5C1" stroke="#273B39" stroke-width="8" d="M51 189h81v54H51zM148 189h95v54h-95zM259 189h88v54h-88z"/>
+    <path stroke="#243B3A" stroke-width="7" d="M25 165h350M25 269h350"/>
+    <circle cx="88" cy="349" r="34" fill="#262B2B"/><circle cx="88" cy="349" r="16" fill="#87908E"/>
+    <circle cx="303" cy="349" r="34" fill="#262B2B"/><circle cx="303" cy="349" r="16" fill="#87908E"/>
+    <path fill="#F2E0A1" d="M352 280h20v35h-20z"/>
+    <text x="150" y="153" fill="#F3E9C9" font-family="Arial,sans-serif" font-size="23" font-weight="700">HAPPY VALLEY</text>
+  </g>
+  <g transform="translate(570 270) scale(.8)">
+    <path fill="#176561" stroke="#273B39" stroke-width="10" d="M24 96 53 24q9-22 33-22h220q24 0 35 24l34 70v252H24V96Z"/>
+    <path fill="#C6E0DE" stroke="#203A38" stroke-width="8" d="M62 28h98v98H37l25-98ZM198 28h101l25 98H198V28Z"/>
+    <path stroke="#C4A253" stroke-width="12" d="M24 143h350M24 280h350"/>
+    <path fill="#AFC5C1" stroke="#273B39" stroke-width="8" d="M50 189h84v54H50zM151 189h94v54h-94zM260 189h87v54h-87z"/>
+    <circle cx="88" cy="349" r="34" fill="#262B2B"/><circle cx="88" cy="349" r="16" fill="#87908E"/>
+    <circle cx="303" cy="349" r="34" fill="#262B2B"/><circle cx="303" cy="349" r="16" fill="#87908E"/>
+  </g>
+</svg>

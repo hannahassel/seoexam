@@ -247,6 +247,90 @@ a {
   list-style-type: circle;
 }
 
+.detail-page--mtr h1 {
+  margin-bottom: 8px;
+}
+
+.mtr-intro {
+  margin-bottom: 18px;
+}
+
+.mtr-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(24px, 3vw, 40px);
+  padding-inline: 8px;
+}
+
+.mtr-map {
+  max-height: 430px;
+  background: #fff;
+}
+
+.mtr-tips {
+  margin: 0;
+  padding-left: 1.35em;
+  font-size: clamp(19px, 2.45vw, 29px);
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.mtr-tips li + li {
+  margin-top: 2px;
+}
+
+.detail-page--tram h1 {
+  margin-bottom: 54px;
+}
+
+.detail-page--tram .detail-layout {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.tram-image {
+  aspect-ratio: 1.5;
+}
+
+.detail-page--buses h1 {
+  margin-bottom: 36px;
+}
+
+.detail-page--buses > .detail-copy {
+  margin: 0 16px 66px;
+}
+
+.bus-strip {
+  width: 100%;
+  max-height: none;
+  aspect-ratio: 5.2;
+  object-fit: cover;
+}
+
+.detail-page--taxi h1 {
+  margin-bottom: 42px;
+}
+
+.taxi-layout {
+  display: grid;
+  grid-template-columns: minmax(0, .75fr) minmax(0, 1.25fr);
+  align-items: center;
+  gap: 28px;
+  padding-inline: 8px;
+}
+
+.taxi-zones {
+  max-height: 250px;
+  background: #fff;
+}
+
+.taxi-fleet {
+  max-height: none;
+  margin-top: 26px;
+  aspect-ratio: 5.2;
+  object-fit: contain;
+}
+
 @media (max-width: 760px) {
   .handbook-page {
     width: calc(100% - 36px);
@@ -311,5 +395,33 @@ a {
 
   .octopus-copy ul {
     padding-left: 1.35em;
+  }
+
+  .mtr-layout,
+  .detail-page--tram .detail-layout,
+  .taxi-layout {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    padding-inline: 0;
+  }
+
+  .mtr-tips {
+    font-size: 19px;
+    text-align: left;
+  }
+
+  .detail-page--buses > .detail-copy {
+    margin: 0 0 28px;
+    font-size: 19px;
+    text-align: left;
+  }
+
+  .bus-strip {
+    aspect-ratio: 2.2;
+  }
+
+  .taxi-fleet {
+    margin-top: 22px;
+    aspect-ratio: 2.2;
   }
 }
