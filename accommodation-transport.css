@@ -116,6 +116,137 @@ a {
   text-decoration-thickness: 2px;
 }
 
+.detail-page {
+  width: min(1240px, calc(100% - 48px));
+  min-height: 100vh;
+  margin-inline: auto;
+  padding: clamp(42px, 5vw, 64px) 0 42px;
+}
+
+.detail-page h1 {
+  margin: 0 0 54px;
+  font-size: clamp(38px, 5.3vw, 68px);
+  font-weight: 400;
+  letter-spacing: -.055em;
+  line-height: 1.06;
+}
+
+.detail-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.8fr) minmax(280px, .92fr);
+  align-items: center;
+  gap: clamp(32px, 4vw, 54px);
+  padding-inline: 8px;
+}
+
+.detail-copy {
+  margin: 0;
+  font-size: clamp(19px, 2.45vw, 29px);
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.detail-image {
+  display: block;
+  width: 100%;
+  max-height: 510px;
+  object-fit: cover;
+}
+
+.housing-collage {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-self: stretch;
+  gap: 2px;
+  overflow: hidden;
+}
+
+.housing-collage img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 150px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.detail-page--private .detail-layout {
+  grid-template-columns: minmax(0, 1.6fr) minmax(320px, .95fr);
+  align-items: start;
+  gap: clamp(28px, 3vw, 40px);
+}
+
+.detail-page--private .detail-copy p {
+  margin: 0;
+}
+
+.detail-page--private .detail-copy p + p {
+  margin-top: 2px;
+}
+
+.detail-page--private .housing-collage {
+  grid-template-rows: repeat(3, minmax(130px, 1fr));
+}
+
+.detail-page--octopus h1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.octopus-card-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  white-space: nowrap;
+}
+
+.octopus-card-icon {
+  position: relative;
+  display: inline-block;
+  width: .86em;
+  height: .58em;
+  border: .06em solid #bd5a28;
+  border-radius: .09em;
+  background: linear-gradient(135deg, transparent 70%, #bd5a28 71% 76%, transparent 77%) .1em .08em / .24em .2em no-repeat;
+}
+
+.octopus-card-icon::after {
+  position: absolute;
+  right: .1em;
+  bottom: .1em;
+  left: .1em;
+  height: .045em;
+  background: #bd5a28;
+  content: '';
+}
+
+.octopus-copy {
+  font-size: clamp(18px, 2.15vw, 27px);
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.octopus-copy p {
+  margin: 0;
+}
+
+.octopus-copy p + p,
+.octopus-copy ul + p {
+  margin-top: 2px;
+}
+
+.octopus-copy ul {
+  margin: 2px 0 0;
+  padding-left: 1.55em;
+}
+
+.octopus-copy ul ul {
+  margin-top: 2px;
+  list-style-type: circle;
+}
+
 @media (max-width: 760px) {
   .handbook-page {
     width: calc(100% - 36px);
@@ -140,5 +271,45 @@ a {
   .handbook-intro {
     font-size: 19px;
     text-align: left;
+  }
+
+  .detail-page {
+    width: calc(100% - 36px);
+    padding-block: 36px;
+  }
+
+  .detail-page h1 {
+    margin-bottom: 28px;
+  }
+
+  .detail-layout,
+  .detail-page--private .detail-layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding-inline: 0;
+  }
+
+  .detail-copy {
+    font-size: 19px;
+    text-align: left;
+  }
+
+  .detail-image {
+    max-height: none;
+  }
+
+  .housing-collage img {
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 1.2;
+  }
+
+  .octopus-copy {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .octopus-copy ul {
+    padding-left: 1.35em;
   }
 }
