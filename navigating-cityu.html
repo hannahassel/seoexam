@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navigating CityU</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: #f0edeb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+    max-width: 1450px;
+    margin: auto;
+    padding: 48px 55px;
+}
+
+h1 {
+    color: #b94717;
+    font-size: clamp(42px, 5vw, 68px);
+    font-weight: 400;
+    letter-spacing: -2px;
+    margin: 0 0 35px;
+}
+
+h1 strong {
+    font-weight: 700;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 43% 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.campus-image {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+}
+
+.text {
+    color: #606060;
+    font-size: 23px;
+    line-height: 1.6;
+}
+
+.text p {
+    margin: 0 0 25px;
+}
+
+.text ul {
+    padding-left: 40px;
+    margin: 30px 0;
+}
+
+.back {
+    display: inline-block;
+    margin-top: 35px;
+    color: #b94717;
+    text-decoration: none;
+    border: 1px solid #b94717;
+    padding: 12px 20px;
+}
+
+.back:hover {
+    background: #b94717;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .page { padding: 25px 20px; }
+    h1 { font-size: 40px; }
+    .content { grid-template-columns: 1fr; }
+    .text { font-size: 19px; }
+    .campus-image { height: 280px; }
+}
+</style>
+</head>
+
+<body>
+<main class="page">
+
+<h1><strong>Navigating CityU</strong> - Read This Before Week One</h1>
+
+<div class="content">
+
+    <img
+        class="campus-image"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/City_University_of_Hong_Kong.jpg/1200px-City_University_of_Hong_Kong.jpg"
+        alt="City University of Hong Kong campus"
+    >
+
+    <div class="text">
+
+        <p>
+            CityU's campus is more compact than most HK unis,
+            but the building codes will confuse you at first!
+            The main academic buildings are AC1, AC2 and AC3
+            which are connected internally, so you can cross
+            most of campus without going outside.
+        </p>
+
+        <ul>
+            <li>
+                The famous crystalline building across the road
+                is the Run Run Shaw Creative Media Centre →
+                media students' home, everyone else's landmark.
+                You reach it by a footbridge.
+            </li>
+
+            <li>
+                Download the campus map PDF offline.
+                Mobile signal dips in the older stairwells.
+            </li>
+
+            <li>
+                Do a dry run to each classroom before semester starts.
+                Room codes like "AC1-XXXX" make sense once someone
+                explains them — ask at the info counter or any senior.
+            </li>
+        </ul>
+
+        <p>
+            Budget 10 extra minutes in week one.
+            By week three, you'll cut through Festival Walk on autopilot.
+        </p>
+
+    </div>
+</div>
+
+<a href="index.html" class="back">← Back to Guide</a>
+
+</main>
+</body>
+</html>
