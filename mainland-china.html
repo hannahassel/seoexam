@@ -4,10 +4,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Mainland China: Shenzhen and Guangzhou</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            background-color: #f0edeb;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #b94717;
+        }
+        .china-page {
+            width: 100%;
+            min-height: 100vh;
+            padding: 45px 20px 30px;
+        }
+        h1 {
+            font-size: clamp(40px, 5.2vw, 74px);
+            font-weight: 400;
+            letter-spacing: -2.5px;
+            line-height: 1.1;
+            margin: 0 0 35px 30px;
+        }
+        .china-content {
+            display: flex;
+            position: relative;
+            width: 100%;
+            gap: 20px;
+        }
+        .china-text {
+            width: 58%;
+            flex-shrink: 0;
+        }
+        .china-text p {
+            font-size: 30px;
+            line-height: 1.43;
+            font-weight: 400;
+            margin: 0;
+            text-align: justify;
+        }
+        .china-images {
+            position: relative;
+            flex: 1;
+            min-height: 620px;
+        }
+        .shenzhen-image {
+            position: absolute;
+            top: -15px;
+            right: 0;
+            width: 100%;
+            max-width: 490px;
+            height: 354px;
+            object-fit: cover;
+        }
+        .guangzhou-image {
+            position: absolute;
+            top: 283px;
+            left: -10px;
+            width: 315px;
+            height: 317px;
+            object-fit: cover;
+            z-index: 2;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            font-size: 18px;
+            color: #b94717;
+            text-decoration: none;
+            border: 1px solid #b94717;
+            padding: 10px 20px;
+            transition: 0.3s;
+        }
+        .back-button:hover {
+            background-color: #b94717;
+            color: #f0edeb;
+        }
+        @media (max-width: 1100px) {
+            .china-text p {
+                font-size: 24px;
+            }
+            .shenzhen-image {
+                height: 280px;
+            }
+            .guangzhou-image {
+                width: 75%;
+                height: 260px;
+                top: 230px;
+            }
+        }
+        @media (max-width: 768px) {
 
-    <link rel="stylesheet" href="style.css">
+            .china-page {
+                padding: 25px 20px;
+            }
+            h1 {
+                font-size: 38px;
+                margin: 0 0 25px;
+                letter-spacing: -1px;
+            }
+            .china-content {
+                flex-direction: column;
+            }
+            .china-text {
+                width: 100%;
+            }
+            .china-text p {
+                font-size: 20px;
+                line-height: 1.5;
+                text-align: left;
+            }
+            .china-images {
+                width: 100%;
+                min-height: 500px;
+                margin-top: 30px;
+            }
+            .shenzhen-image {
+                top: 0;
+                right: 0;
+                width: 85%;
+                height: 280px;
+            }
+            .guangzhou-image {
+                top: 220px;
+                left: 0;
+                width: 60%;
+                height: 250px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -25,40 +151,40 @@
                 <p>
                     Being only a short train ride away makes these cities
                     popular amongst the students for day-trips or weekend
-                    getaways. The MTR takes you right to the boarder and
-                    after crossing you can already start you shopping
+                    getaways. The MTR takes you right to the border and
+                    after crossing you can already start your shopping
                     journey at one of the many malls of Shenzhen.
+
                     Take the high-speed intercity train slightly further
                     north to Guangzhou for incredible Cantonese dim sum,
                     historical architecture, and vibrant student-budget
                     markets that give you a true taste of mainland scale.
+
                     China is extremely cheap especially compared to
                     Hong Kong so be prepared to do a lot of shopping
                     and taxi rides. DiDi is your best friend for
                     ride hailing in China.
                 </p>
-
             </div>
-
             <div class="china-images">
 
                 <img
-                    src="images/shenzhen.jpg"
+                    src="https://cdnassets.hw.net/d0/59/22b449324ccdbb25117055cab8be/ebb8f0fb48c14918904b90cf1e8df68a.jpg"
                     alt="Shenzhen skyline"
                     class="shenzhen-image"
                 >
-
                 <img
-                    src="images/guangzhou.jpg"
-                    alt="Traditional Chinese architecture"
+                    src="https://ak-d.tripcdn.com/images/1mi2m224x8w5w7mjeC798.jpg"
+                    alt="Traditional architecture in Guangzhou"
                     class="guangzhou-image"
                 >
-
             </div>
 
         </div>
+        <a href="index.html" class="back-button">
+            ← Back to Travel Guide
+        </a>
 
     </main>
-
 </body>
 </html>
