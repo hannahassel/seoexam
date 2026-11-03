@@ -1,0 +1,133 @@
+/* Shared header and footer for every page of The International Student's Guide to HK.
+   Link this file in <head> before the page's own stylesheet. */
+
+.site-header,
+.site-footer {
+  font-family: 'DM Sans', Arial, sans-serif;
+  color: #b94717;
+  background: #eeebea;
+}
+
+.site-header a,
+.site-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-header__inner,
+.site-footer__inner,
+.site-footer__legal {
+  width: min(1180px, calc(100% - 48px));
+  margin-inline: auto;
+}
+
+/* Header */
+
+.site-header {
+  border-bottom: 1px solid #c9572b;
+}
+
+.site-header__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 32px;
+  padding: 20px 0;
+}
+
+.site-brand {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -.03em;
+}
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+}
+
+.site-nav a {
+  font-size: 15px;
+  text-underline-offset: .3em;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current] {
+  text-decoration: underline;
+}
+
+/* Footer */
+
+.site-footer {
+  margin-top: 64px;
+  border-top: 1px solid #c9572b;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.site-footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px 48px;
+  padding: 36px 0 24px;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer__brand {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -.03em;
+}
+
+.site-footer__legal a:hover {
+  text-decoration: underline;
+}
+
+.site-footer__legal {
+  padding: 18px 0 32px;
+  border-top: 1px solid rgba(201, 87, 43, .35);
+  color: #666463;
+  font-size: 13px;
+}
+
+.site-footer__legal a {
+  color: #b94717;
+}
+
+.site-header a:focus-visible,
+.site-footer a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+@media (max-width: 680px) {
+  .site-header__inner,
+  .site-footer__inner,
+  .site-footer__legal {
+    width: calc(100% - 40px);
+  }
+
+  .site-header__inner {
+    padding: 16px 0;
+  }
+
+  .site-nav ul {
+    gap: 6px 18px;
+  }
+
+  .site-nav a {
+    font-size: 14px;
+  }
+}

@@ -27,9 +27,8 @@ a {
 
 .about-page {
   width: min(1180px, calc(100% - 48px));
-  min-height: 100vh;
   margin-inline: auto;
-  padding: clamp(52px, 7vw, 88px) 0;
+  padding: clamp(40px, 5vw, 64px) 0 0;
 }
 
 .about-page h1 {
@@ -97,12 +96,11 @@ a {
 
 .profile-page {
   width: min(1174px, calc(100% - 48px));
-  padding: clamp(52px, 6.4vw, 85px) 0 46px;
+  padding: clamp(40px, 5vw, 64px) 0 0;
 }
 
 .profile-layout {
   display: grid;
-  min-height: calc(100vh - clamp(52px, 6.4vw, 85px) - 46px);
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.06fr);
   gap: clamp(24px, 2.4vw, 36px);
 }
