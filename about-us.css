@@ -42,19 +42,18 @@ a {
 
 .about-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: clamp(28px, 5.2vw, 72px);
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: clamp(24px, 4vw, 56px);
 }
 
 .about-panel {
-  min-height: 470px;
   padding: clamp(30px, 3.2vw, 44px);
   border: 1px solid #c9572b;
 }
 
 .about-panel h2 {
   margin: 0 0 24px;
-  font-size: clamp(32px, 4vw, 48px);
+  font-size: clamp(28px, 3.2vw, 40px);
   font-weight: 700;
   letter-spacing: -.05em;
   line-height: 1.2;
@@ -63,8 +62,8 @@ a {
 .team-list {
   margin: 0;
   padding-left: 1.1em;
-  font-size: clamp(21px, 2.8vw, 36px);
-  line-height: 1.6;
+  font-size: clamp(20px, 2.2vw, 27px);
+  line-height: 1.9;
 }
 
 .team-list a {
@@ -83,8 +82,17 @@ a {
 
 .about-panel p {
   margin: 0;
-  font-size: clamp(22px, 2.8vw, 36px);
-  line-height: 1.6;
+  font-size: clamp(18px, 1.8vw, 22px);
+  line-height: 1.65;
+}
+
+.about-panel p + p {
+  margin-top: 1em;
+}
+
+.about-panel p a {
+  text-decoration: underline;
+  text-underline-offset: .12em;
 }
 
 .profile-page {
@@ -114,6 +122,19 @@ a {
   color: #b94717;
   font-size: clamp(18px, 2vw, 21px);
   line-height: 1.55;
+}
+
+.profile-intro p {
+  margin: 0 0 1em;
+}
+
+.profile-intro p:last-child {
+  margin-bottom: 0;
+}
+
+.profile-intro a {
+  text-decoration: underline;
+  text-underline-offset: .12em;
 }
 
 .profile-contact {
@@ -151,6 +172,7 @@ a {
   width: 100%;
   aspect-ratio: 600 / 428;
   object-fit: cover;
+  object-position: 50% 25%;
 }
 
 .profile-figure figcaption {
@@ -158,6 +180,21 @@ a {
   color: #b94717;
   font-size: clamp(20px, 2.7vw, 28px);
   line-height: 1.4;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 12px 20px;
+  border: 1px solid #b94717;
+  font-size: 16px;
+  transition: background .2s ease, color .2s ease;
+}
+
+.back-link:hover,
+.back-link:focus-visible {
+  background: #b94717;
+  color: #eeebea;
 }
 
 @media (max-width: 680px) {
