@@ -168,6 +168,7 @@ a {
 .profile-figure img {
   display: block;
   width: 100%;
+  height: auto;
   aspect-ratio: 600 / 428;
   object-fit: cover;
   object-position: 50% 25%;
