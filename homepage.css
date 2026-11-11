@@ -1,16 +1,6 @@
 body {
-	background: #f0edeb;
+	background: #eeebea;
 	color: #4f4d4b;
-}
-
-.topbar,
-.hero,
-.intro,
-.quick-facts,
-.feature,
-.faq,
-.closing {
-	display: none;
 }
 
 .guides.wrap {
@@ -36,17 +26,17 @@ body {
 	font-family: 'DM Sans', sans-serif;
 	font-size: clamp(30px, 4.5vw, 40px);
 	font-weight: 400;
-	letter-spacing: -.055em;
+	letter-spacing: -.045em;
 	line-height: 1.04;
 }
 
 .guides .section-heading > p {
 	max-width: 440px;
 	margin: 0;
-	color: #666463;
+	color: #b94717;
 	font-size: 14px;
 	line-height: 1.65;
-	text-align: justify;
+	text-align: left;
 }
 
 .guide-grid {
@@ -85,7 +75,7 @@ body {
 	object-fit: cover;
 }
 
-.guide-card h3 {
+.guide-card h2 {
 	margin: 0 0 3px;
 	color: #bd4813;
 	font-family: 'DM Sans', sans-serif;
@@ -124,7 +114,7 @@ body {
 		padding: 8px;
 	}
 
-	.guide-card h3 {
+	.guide-card h2 {
 		font-size: 17px;
 	}
 }

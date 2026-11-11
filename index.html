@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -119,7 +119,7 @@
 		.card-icon { display: grid; width: 45px; height: 45px; margin-bottom: 32px; place-items: center; border-radius: 50%; background: var(--mint); font-size: 20px; }
 		.guide-card:nth-child(2) .card-icon, .guide-card:nth-child(5) .card-icon { background: #f8e4d9; }
 		.guide-card:nth-child(3) .card-icon, .guide-card:nth-child(6) .card-icon { background: #f3edcf; }
-		.guide-card h3 { margin-bottom: 9px; font-family: 'Manrope', sans-serif; font-size: 19px; letter-spacing: -.04em; }
+		.guide-card h2 { margin-bottom: 9px; font-family: 'Manrope', sans-serif; font-size: 19px; letter-spacing: -.04em; }
 		.guide-card p { max-width: 300px; margin-bottom: 19px; color: var(--muted); font-size: 13px; line-height: 1.7; }
 		.card-link { display: inline-flex; align-items: center; gap: 8px; color: #b8664d; font-size: 12px; font-weight: 700; }
 
@@ -209,41 +209,9 @@
     </div>
   </header>
 	<main>
-		<section class="wrap hero" id="hjem" aria-labelledby="hero-title">
-			<div class="hero-content">
-				<p class="eyebrow">En liten guide til et stort eventyr</p>
-				<h1 id="hero-title">Hongkong,<br>litt mer <em>hjemme.</em></h1>
-				<p class="hero-copy">Skal du på utveksling til Hongkong? Her finner du tipsene jeg skulle ønske jeg hadde før jeg dro — fra de første dagene til de små favorittstedene.</p>
-				<div class="button-row">
-					<a class="button" href="#guider">Utforsk guidene <span class="arrow" aria-hidden="true">→</span></a>
-					<a class="text-link" href="#hverdagen">Bli kjent med byen <span class="arrow" aria-hidden="true">↓</span></a>
-				</div>
-			</div>
-			<span class="hero-note">Hongkong · 22° 18′ N, 114° 10′ Ø</span>
-		</section>
-
-		<section class="wrap intro" id="hverdagen">
-			<div>
-				<p class="section-kicker">Hei, og velkommen</p>
-				<h2>En by full av kontraster.<br>En hverdag du snart kan.</h2>
-			</div>
-			<div class="intro-copy">
-				<p>Hongkong er blinkende storby, dampende dim sum og grønne fjellstier — ofte alt på samme dag. Det kan føles overveldende i starten, men det er også det som gjør byen så utrolig fin å bo i.</p>
-				<p><strong>Tenk på denne siden som en venn som allerede har vært der.</strong> Her er det praktiske, det personlige og alt det små du lurer på før avreise.</p>
-			</div>
-		</section>
-
-		<section class="wrap quick-facts" aria-label="Hongkong kort oppsummert">
-			<div class="fact"><span class="fact-label">Valuta</span><span class="fact-value">HKD <small>Hongkong-dollar</small></span></div>
-			<div class="fact"><span class="fact-label">Språk</span><span class="fact-value">Kantonesisk <small>+ engelsk</small></span></div>
-			<div class="fact"><span class="fact-label">Transport</span><span class="fact-value">Octopus <small>gjør alt enklere</small></span></div>
-			<div class="fact"><span class="fact-label">By + natur</span><span class="fact-value">Begge deler <small>rett utenfor døra</small></span></div>
-		</section>
-
 		<section class="wrap guides" id="guider">
 			<div class="section-heading">
 				<div>
-					<p class="section-kicker">Start der du er</p>
 					<h1>The International Student's Guide to HK</h1>
 				</div>
 				<p>Written by students, for students. Everything here is stuff we figured out the hard way — which MTR exit actually leads to campus, where to eat for under HK$50, how to not get scammed on rent, and what to do with your weekends.</p>
@@ -251,83 +219,37 @@
 			<div class="guide-grid">
 				<a class="guide-card" href="accommodation-transport/">
 					<img class="card-image" src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Student accommodation in Hong Kong" loading="lazy">
-					<h3>Accommodation & Transportation</h3>
+					<h2>Accommodation & Transportation</h2>
 					<p>Student housing, MTR, buses, and ding dings.</p>
 				</a>
 				<a class="guide-card" href="university-life/">
 					<img class="card-image" src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Students gathered at a university campus" loading="lazy">
-					<h3>University Life</h3>
+					<h2>University Life</h2>
 					<p>Campus navigation, add/drop, and how classes at CityU actually work.</p>
 				</a>
 				<a class="guide-card" href="travelling/">
-					<img class="card-image" src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Reiseplanlegging med kart og flybillett" loading="lazy">
-					<h3>Travelling</h3>
+					<img class="card-image" src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Travel planning with a map, a camera and a backpack" loading="lazy">
+					<h2>Travelling</h2>
 					<p>Budget friendly Asia, useful applications, favourite student destinations.</p>
 				</a>
 				<a class="guide-card" href="food/">
 					<img class="card-image" src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Dim sum and other Cantonese dishes" loading="lazy">
-					<h3>Food</h3>
+					<h2>Food</h2>
 					<p>Breakfast sets, dim sum on a budget, and how to order with zero Cantonese.</p>
 				</a>
 				<a class="guide-card" href="food/">
 					<img class="card-image" src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Dim sum and other Cantonese dishes" loading="lazy">
-					<h3>Food</h3>
+					<h2>Food</h2>
 					<p>Breakfast sets, dim sum on a budget, and how to order with zero Cantonese.</p>
 				</a>
 				<a class="guide-card" href="about-us/">
-					<img class="card-image" src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Teamet bak studentguiden" loading="lazy">
-					<h3>About Us</h3>
+					<img class="card-image" src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Students working together at laptops, the team behind this guide" loading="lazy">
+					<h2>About Us</h2>
 					<p>Our team and mission.</p>
 				</a>
 			</div>
 		</section>
 
-		<section class="wrap feature">
-			<div class="feature-image" role="img" aria-label="Tradisjonell trikk i Hongkongs travle bygater"></div>
-			<div class="feature-content">
-				<p class="section-kicker">Første uke i byen</p>
-				<h2>Det lille kortet som gjør alt litt enklere.</h2>
-				<p>Octopus-kortet kan brukes på nesten all kollektivtransport — og mange steder til. Skaff deg et tidlig, så er du klar for å utforske fra første dag.</p>
-				<a class="button" href="accommodation-transport/">Flere praktiske tips <span class="arrow" aria-hidden="true">→</span></a>
-			</div>
-		</section>
-
-		<section class="wrap faq" id="sporsmal">
-			<div class="faq-heading">
-				<p class="section-kicker">Lurer du på noe?</p>
-				<h2>Gode spørsmål<br>før avreise.</h2>
-				<p>Her er noen ting mange tenker på før de setter kursen østover.</p>
-			</div>
-			<div class="faq-list">
-				<details>
-					<summary>Er det lett å komme seg rundt uten å kunne kantonesisk?</summary>
-					<p>Ja, det går som regel fint. Skilting på MTR og mange offentlige steder er også på engelsk, og kart- og transportapper er gode hjelpere. Et smil og et «m̀h’gōi» (takk / vær så snill) kommer dessuten langt.</p>
-				</details>
-				<details>
-					<summary>Hva bør jeg ordne før jeg reiser?</summary>
-					<p>Sjekk universitetets informasjon om visum, bolig og forsikring i god tid. Last ned kart og nyttige apper, og ha adressen til bostedet lagret både digitalt og offline til ankomstdagen.</p>
-				</details>
-				<details>
-					<summary>Er Hongkong bare storby og skyskrapere?</summary>
-					<p>Langt ifra! Byen har strender, øyer, turstier og grønne fjellområder lett tilgjengelig. Du kan spise frokost i sentrum og gå en fjelltur samme ettermiddag.</p>
-				</details>
-				<details>
-					<summary>Hvordan holder jeg oversikt over utgiftene?</summary>
-					<p>Prisene varierer mye med område og vaner. Følg med på egne utgifter den første tiden, sjekk hva som er inkludert i studentboligen, og bruk lokale markeder og kantiner når du vil spise rimeligere.</p>
-				</details>
-			</div>
-		</section>
-
-		<section class="wrap closing" id="kom-i-gang">
-			<div class="closing-inner">
-				<div>
-					<p class="eyebrow">Neste stopp: ditt eventyr</p>
-					<h2>Du trenger ikke ha alt planlagt.</h2>
-					<p>Begynn med det viktigste. Resten finner du ut av underveis.</p>
-				</div>
-				<a class="button" href="#guider">Se guidene <span class="arrow" aria-hidden="true">→</span></a>
-			</div>
-		</section>
 	</main>
 
   <footer class="site-footer">
