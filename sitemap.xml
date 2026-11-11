@@ -1,31 +1,102 @@
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
-    <loc>https://example.com/index/index.html</loc>
+    <loc>https://hannahassel.github.io/seoexam/</loc>
   </url>
-
   <url>
-    <loc>https://example.com/Travel/macao.html</loc>
+    <loc>https://hannahassel.github.io/seoexam/about-us/</loc>
   </url>
-
   <url>
-    <loc>https://example.com/Travel/mainland-china.html</loc>
+    <loc>https://hannahassel.github.io/seoexam/about-us/emma-sellevoll.html</loc>
   </url>
-
   <url>
-    <loc>https://example.com/Travel/SoutheastAsia.html</loc>
+    <loc>https://hannahassel.github.io/seoexam/about-us/hanna-hassel.html</loc>
   </url>
-
   <url>
-    <loc>https://example.com/Travel/SouthKorea.html</loc>
+    <loc>https://hannahassel.github.io/seoexam/about-us/julia-almasi.html</loc>
   </url>
-
   <url>
-    <loc>https://example.com/Travel/taiwan.html</loc>
+    <loc>https://hannahassel.github.io/seoexam/about-us/renee-schmitt.html</loc>
   </url>
-
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/about-us/teresa-rafaela.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/accommodation-transport/</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/accommodation-transport/buses.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/accommodation-transport/ding-ding.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/accommodation-transport/ma-on-shan.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/accommodation-transport/mtr.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/accommodation-transport/octopus.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/accommodation-transport/private-housing.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/accommodation-transport/taxi.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/food/</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/food/cha-chaan-teng-breakfast.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/food/dim-sum-guide.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/food/order-food-without-cantonese.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/food/sharing-tables-etiquette.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/food/western-food-hong-kong.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/travelling/</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/travelling/macao.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/travelling/mainland-china.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/travelling/south-korea.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/travelling/southeast-asia.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/travelling/taiwan.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/university-life/</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/university-life/add-drop.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/university-life/cityu-explained.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/university-life/classes-at-cityu.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/university-life/mtr-to-classroom.html</loc>
+  </url>
+  <url>
+    <loc>https://hannahassel.github.io/seoexam/university-life/navigating-cityu.html</loc>
+  </url>
 </urlset>
-
