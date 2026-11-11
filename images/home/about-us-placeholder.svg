@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="349" viewBox="0 0 600 349" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="300" y1="0" x2="300" y2="349" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BCEAFF"/>
+      <stop offset="1" stop-color="#EFFBFB"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h600v349H0z"/>
+  <path fill="#fff" d="M191 81c0-20.4 16.6-37 37-37 4.7 0 9.2.9 13.3 2.5C248.8 19.9 270.2 1 296 1c28.5 0 51.7 23.1 51.7 51.7v.3h17.6a25 25 0 0 1 0 50h-152a37 37 0 0 1-22.3-66.5A36.7 36.7 0 0 1 191 81Z"/>
+  <path fill="#C5E881" d="M0 257c65-33 115-34 180-14 54 16 103 20 154 12 68-11 132 18 192 30 26 5 51 3 74-2v66H0v-92Z"/>
+  <path fill="#89A800" d="M0 253c61 45 97 81 163 75 54-5 80-31 125-38 61-10 112 20 169 19 57-1 103-19 143-49v89H0V253Z"/>
+  <text x="300" y="178" text-anchor="middle" font-family="DM Sans, Arial, sans-serif" font-size="30" fill="#b94717">Take group photo?</text>
+</svg>
