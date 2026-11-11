@@ -4,7 +4,6 @@ body {
 }
 
 .topbar,
-footer,
 .hero,
 .intro,
 .quick-facts,
@@ -16,7 +15,6 @@ footer,
 
 .guides.wrap {
 	width: min(890px, 100%);
-	min-height: 100vh;
 	padding: 38px 6.1% 62px;
 	background: #eeebea;
 }

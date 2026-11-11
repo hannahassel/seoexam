@@ -9,6 +9,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/layout.css">
 	<style>
 		:root {
 			--ink: #183d3b;
@@ -148,9 +149,6 @@
 		.closing p { margin-bottom: 0; color: #c1d0ca; font-size: 13px; }
 		.closing .button { flex-shrink: 0; background: #f19a7e; color: #173d3a; }
 
-		footer { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 32px 0 35px; color: #75827e; font-size: 11px; }
-		footer .brand { color: var(--ink); }
-		.footer-note { text-align: right; }
 
 		@media (max-width: 760px) {
 			.wrap { width: min(100% - 32px, 600px); }
@@ -180,8 +178,6 @@
 			.faq-heading h2 { font-size: 33px; }
 			.closing { padding: 42px 28px; }
 			.closing-inner { align-items: flex-start; flex-direction: column; }
-			footer { align-items: flex-start; flex-direction: column; }
-			.footer-note { text-align: left; }
 		}
 		@media (max-width: 430px) {
 			.guide-grid { grid-template-columns: 1fr; }
@@ -198,22 +194,20 @@
 	<link rel="stylesheet" href="homepage.css">
 </head>
 <body>
-	<header class="wrap topbar">
-		<a class="brand" href="#hjem" aria-label="Hongkong på nært hold – hjem">
-			<span class="brand-mark" aria-hidden="true">香</span>
-			<span class="brand-name">Hongkong på nært hold</span>
-		</a>
-		<nav class="nav" aria-label="Hovedmeny">
-			<a href="accommodation-transport/">Transport</a>
-			<a href="accommodation-transport/">Accommodation</a>
-			<a href="food/">Food</a>
-			<a href="university-life/">University life</a>
-			<a href="travelling/">Activities</a>
-			<a href="about-us/">About us</a>
-			<a class="nav-cta" href="#guider">Guidene <span aria-hidden="true">↗</span></a>
-		</nav>
-	</header>
-
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-brand" href="./">The International Student's Guide to HK</a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="accommodation-transport/">Accommodation &amp; Transport</a></li>
+          <li><a href="university-life/">University Life</a></li>
+          <li><a href="travelling/">Travelling</a></li>
+          <li><a href="food/">Food</a></li>
+          <li><a href="about-us/">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 	<main>
 		<section class="wrap hero" id="hjem" aria-labelledby="hero-title">
 			<div class="hero-content">
@@ -336,9 +330,17 @@
 		</section>
 	</main>
 
-	<footer class="wrap">
-		<a class="brand" href="#hjem"><span class="brand-mark" aria-hidden="true">香</span><span class="brand-name">Hongkong på nært hold</span></a>
-		<span class="footer-note">Laget for deg som snart kaller Hongkong hjemme. <span aria-hidden="true">✳</span></span>
-	</footer>
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div>
+        <p class="site-footer__brand">The International Student's Guide to HK</p>
+        <p>Written by students, for students.</p>
+      </div>
+    </div>
+    <div class="site-footer__legal">
+      <p>Made by <a href="about-us/teresa-rafaela.html">Teresa</a>, <a href="about-us/hanna-hassel.html">Hanna</a>, <a href="about-us/renee-schmitt.html">Renée</a>, <a href="about-us/julia-almasi.html">Julia</a> &amp; <a href="about-us/emma-sellevoll.html">Emma</a>, exchange students at CityU, 2026.</p>
+      <p>Not an official CityU website. This site uses Google Analytics to see how visitors use it.</p>
+    </div>
+  </footer>
 </body>
 </html>
