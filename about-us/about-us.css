@@ -169,7 +169,7 @@ a {
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 600 / 428;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: 50% 25%;
 }
@@ -227,7 +227,7 @@ a {
   }
 
   .profile-figure img {
-    aspect-ratio: 600 / 428;
+    aspect-ratio: 4 / 5;
   }
 
   .profile-figure figcaption {
