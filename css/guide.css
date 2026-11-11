@@ -1,0 +1,286 @@
+/* Shared content styles for all guide sections (Accommodation & Transport, University Life,
+   Travelling, Food, Things to Do). Link after css/layout.css. */
+
+:root {
+  color-scheme: light;
+  font-family: 'DM Sans', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #eeebea;
+  color: #b94717;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background: #eeebea;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: .15em;
+}
+
+.guide-page {
+  width: min(1180px, calc(100% - 48px));
+  margin-inline: auto;
+  padding: clamp(40px, 5vw, 64px) 0 0;
+}
+
+/* Page heading */
+
+.guide-page h1 {
+  max-width: 980px;
+  margin: 0 0 16px;
+  font-size: clamp(38px, 5vw, 60px);
+  font-weight: 400;
+  letter-spacing: -.045em;
+  line-height: 1.1;
+}
+
+.guide-lead {
+  max-width: 860px;
+  font-size: clamp(17px, 1.8vw, 21px);
+  line-height: 1.6;
+}
+
+.guide-lead p {
+  margin: 0 0 .8em;
+}
+
+/* Sections: text, optionally next to one image */
+
+.guide-section {
+  margin-top: clamp(36px, 4.5vw, 56px);
+}
+
+.guide-section--image {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+  align-items: start;
+  gap: clamp(28px, 4.5vw, 64px);
+}
+
+.guide-section--image-left .guide-figure {
+  order: -1;
+}
+
+.guide-section--image-left {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.45fr);
+}
+
+.guide-text {
+  max-width: 860px;
+  font-size: clamp(17px, 1.6vw, 20px);
+  line-height: 1.7;
+}
+
+.guide-text h2 {
+  margin: 0 0 .5em;
+  font-size: clamp(24px, 2.6vw, 32px);
+  font-weight: 500;
+  letter-spacing: -.035em;
+  line-height: 1.2;
+}
+
+.guide-text h3 {
+  margin: 1.4em 0 .3em;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.guide-text p {
+  margin: 0 0 1em;
+}
+
+.guide-text ul,
+.guide-text ol {
+  margin: 0 0 1em;
+  padding-left: 1.3em;
+}
+
+.guide-text li {
+  margin-bottom: .4em;
+}
+
+.guide-text > :last-child {
+  margin-bottom: 0;
+}
+
+.guide-figure {
+  margin: 0;
+}
+
+.guide-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.guide-figure + .guide-figure {
+  margin-top: 16px;
+}
+
+.guide-figure--logo img {
+  width: min(320px, 100%);
+}
+
+/* Tables */
+
+.guide-table-wrap {
+  margin: 0 0 1.2em;
+  overflow-x: auto;
+}
+
+.guide-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .9em;
+  line-height: 1.5;
+}
+
+.guide-table th,
+.guide-table td {
+  padding: 10px 14px;
+  border: 1px solid rgba(185, 71, 23, .35);
+  text-align: left;
+  vertical-align: top;
+}
+
+.guide-table th {
+  background: rgba(185, 71, 23, .08);
+  font-weight: 700;
+}
+
+/* FAQ */
+
+.guide-faq dt {
+  margin-top: 1.1em;
+  font-weight: 700;
+}
+
+.guide-faq dd {
+  margin: .3em 0 0;
+}
+
+/* Overview pages: list of guides */
+
+.guide-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 980px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.guide-link {
+  display: block;
+  padding: 20px 26px;
+  border: 1px solid #b94717;
+  text-decoration: none;
+  transition: background .2s ease, color .2s ease;
+}
+
+.guide-link__title {
+  display: block;
+  font-size: clamp(20px, 2.2vw, 26px);
+  letter-spacing: -.02em;
+}
+
+.guide-link__text {
+  display: block;
+  margin-top: 6px;
+  color: #606060;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.guide-link:hover,
+.guide-link:focus-visible {
+  background: #b94717;
+  color: #eeebea;
+}
+
+.guide-link:hover .guide-link__text,
+.guide-link:focus-visible .guide-link__text {
+  color: #eeebea;
+}
+
+/* More guides + back button */
+
+.guide-more {
+  margin-top: clamp(48px, 6vw, 72px);
+  padding-top: 28px;
+  border-top: 1px solid #c9572b;
+}
+
+.guide-more h2 {
+  margin: 0 0 14px;
+  font-size: clamp(22px, 2.4vw, 28px);
+  font-weight: 700;
+  letter-spacing: -.04em;
+}
+
+.guide-more ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 17px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 12px 20px;
+  border: 1px solid #b94717;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background .2s ease, color .2s ease;
+}
+
+.back-link:hover,
+.back-link:focus-visible {
+  background: #b94717;
+  color: #eeebea;
+}
+
+@media (max-width: 760px) {
+  .guide-page {
+    width: calc(100% - 40px);
+  }
+
+  .guide-section--image,
+  .guide-section--image-left {
+    grid-template-columns: 1fr;
+  }
+
+  .guide-section--image-left .guide-figure {
+    order: 0;
+  }
+
+  .guide-link {
+    padding: 18px 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .back-link,
+  .guide-link {
+    transition: none;
+  }
+}
+
+/* Overview page: intro text next to one photo */
+
+.guide-section--intro {
+  margin-top: 0;
+}
