@@ -1,0 +1,31 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://example.com/index/index.html</loc>
+  </url>
+
+  <url>
+    <loc>https://example.com/Travel/macao.html</loc>
+  </url>
+
+  <url>
+    <loc>https://example.com/Travel/mainland-china.html</loc>
+  </url>
+
+  <url>
+    <loc>https://example.com/Travel/SoutheastAsia.html</loc>
+  </url>
+
+  <url>
+    <loc>https://example.com/Travel/SouthKorea.html</loc>
+  </url>
+
+  <url>
+    <loc>https://example.com/Travel/taiwan.html</loc>
+  </url>
+
+</urlset>
+
