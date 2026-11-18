@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hannahassel.github.io/seoexam/sitemap.xml
