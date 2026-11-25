@@ -32,8 +32,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 12px 32px;
-  padding: 20px 0;
+  gap: 8px 32px;
+  padding: 14px 0;
 }
 
 .site-brand {
@@ -51,10 +51,12 @@
 .site-nav ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 24px;
+  gap: 0 24px;
 }
 
 .site-nav a {
+  display: inline-block;
+  padding: 6px 0;
   font-size: 15px;
   text-underline-offset: .3em;
 }
@@ -120,11 +122,11 @@
   }
 
   .site-header__inner {
-    padding: 16px 0;
+    padding: 10px 0;
   }
 
   .site-nav ul {
-    gap: 6px 18px;
+    gap: 0 18px;
   }
 
   .site-nav a {
